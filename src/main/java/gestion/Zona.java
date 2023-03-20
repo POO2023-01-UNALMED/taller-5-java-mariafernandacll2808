@@ -16,6 +16,7 @@ public class Zona {
     }
 
     public Zona() {
+        this(null,null);
     }
 
     //Set and Get
@@ -29,7 +30,7 @@ public class Zona {
     }
 
     public Zoologico getZoo() {
-        return this.zoo;
+        return zoo;
     }
 
     public void setZoo(Zoologico zoo) {
@@ -37,7 +38,7 @@ public class Zona {
     }
 
     public ArrayList<Animal> getAnimales() {
-        return this.animales;
+        return animales;
     }
 
     public void setAnimales(ArrayList<Animal> animales) {
