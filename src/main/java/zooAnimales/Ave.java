@@ -16,12 +16,13 @@ public class Ave extends Animal{
 	}	
 	
 	public Ave() {	
+		this(null,0,null,null,null);
 	}
 
     //Set and Get
 
     public String getColorPlumas() {
-        return this.colorPlumas;
+        return colorPlumas;
     }
 
     public void setColorPlumas(String colorPlumas) {

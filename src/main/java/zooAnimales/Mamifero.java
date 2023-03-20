@@ -18,16 +18,13 @@ public class Mamifero extends Animal{
 	}	
 	
 	public Mamifero() {	
+		this(null,0,null,null,false,0);
 	}
 
 	//Set and Get
 
-	public boolean isPelaje() {
-		return this.pelaje;
-	}
-
 	public boolean getPelaje() {
-		return this.pelaje;
+		return pelaje;
 	}
 
 	public void setPelaje(boolean pelaje) {
@@ -35,7 +32,7 @@ public class Mamifero extends Animal{
 	}
 
 	public int getPatas() {
-		return this.patas;
+		return patas;
 	}
 
 	public void setPatas(int patas) {

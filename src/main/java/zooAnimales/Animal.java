@@ -22,13 +22,14 @@ public class Animal {
 
 
     public Animal() {
+        this(null,0,null,null);
         totalAnimales ++;
     }
 
     //Set and Get
 
     public int getTotalAnimales() {
-        return this.totalAnimales;
+        return totalAnimales;
     }
 
     public void setTotalAnimales(int totalAnimales) {
@@ -36,7 +37,7 @@ public class Animal {
     }
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -44,7 +45,7 @@ public class Animal {
     }
 
     public int getEdad() {
-        return this.edad;
+        return edad;
     }
 
     public void setEdad(int edad) {
@@ -52,7 +53,7 @@ public class Animal {
     }
 
     public String getHabitat() {
-        return this.habitat;
+        return habitat;
     }
 
     public void setHabitat(String habitat) {
@@ -60,7 +61,7 @@ public class Animal {
     }
 
     public String getGenero() {
-        return this.genero;
+        return genero;
     }
 
     public void setGenero(String genero) {
@@ -68,7 +69,7 @@ public class Animal {
     }
 
     public Zona getZona() {
-        return this.zona;
+        return zona;
     }
 
     public void setZona(Zona zona) {

@@ -17,13 +17,14 @@ public class Reptil extends Animal{
 		listado.add(this);
 	}	
 	
-	public Reptil() {	
+	public Reptil() {
+		this(null,0,null,null,null,0);
 	}
 
     //Set and Get
 
     public String getColorEscamas() {
-        return this.colorEscamas;
+        return colorEscamas;
     }
 
     public void setColorEscamas(String colorEscamas) {
@@ -31,7 +32,7 @@ public class Reptil extends Animal{
     }
 
     public int getLargoCola() {
-        return this.largoCola;
+        return largoCola;
     }
 
     public void setLargoCola(int largoCola) {

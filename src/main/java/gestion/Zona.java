@@ -22,7 +22,7 @@ public class Zona {
     //Set and Get
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -52,7 +52,7 @@ public class Zona {
     }
 
     public int cantidadAnimales(){
-        return animales.size();
+        return this.animales.size();
     }
 
 

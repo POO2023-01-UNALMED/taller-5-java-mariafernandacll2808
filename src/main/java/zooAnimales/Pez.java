@@ -17,13 +17,14 @@ public class Pez extends Animal{
 		listado.add(this);
 	}	
 	
-	public Pez() {	
+	public Pez() {
+		this(null,0,null,null,null,0);	
 	}
 
     //Set and Get
 
     public String getColorEscamas() {
-        return this.colorEscamas;
+        return colorEscamas;
     }
 
     public void setColorEscamas(String colorEscamas) {
@@ -31,7 +32,7 @@ public class Pez extends Animal{
     }
 
     public int getCantidadAletas() {
-        return this.cantidadAletas;
+        return cantidadAletas;
     }
 
     public void setCantidadAletas(int cantidadAletas) {

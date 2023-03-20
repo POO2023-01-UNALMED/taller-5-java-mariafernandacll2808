@@ -17,13 +17,15 @@ public class Anfibio extends Animal{
 		listado.add(this);
 	}	
 	
-	public Anfibio() {	
+	public Anfibio() {
+		this(null, 0, null, null, null, false);
+
 	}
 
     //Set and Get
 
     public String getColorPiel() {
-        return this.colorPiel;
+        return colorPiel;
     }
 
     public void setColorPiel(String colorPiel) {
@@ -31,7 +33,7 @@ public class Anfibio extends Animal{
     }
 
     public boolean getVenenoso() {
-        return this.venenoso;
+        return venenoso;
     }
 
     public void setVenenoso(boolean venenoso) {
@@ -40,7 +42,7 @@ public class Anfibio extends Animal{
 
     //Metodos
 
-	static public int cantidadAnfibios(){
+	public static int cantidadAnfibios(){
 		return listado.size();
 	}
 
